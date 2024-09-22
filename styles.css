@@ -1,0 +1,102 @@
+menu a{
+    max-width: 960px;
+    color: rgb(102, 9, 97);
+    text-decoration: none;   
+}
+
+menu a:hover{
+    color: yellow;
+    text-decoration: none; 
+    transition: 0.5s;  
+}
+
+div.code {
+    text-align: center;
+    font-size: 12pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+   }
+
+header {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin: 0px;
+    text-align: left;
+    width:100%;
+    background-color: gray;
+    padding: 10px; 
+    height:80px;
+    color: yellow;
+    background-position: left top;
+    background-size: 10%;
+}
+.img-header{
+    float:left;
+    margin:10px; 
+    width:70px; 
+    height:70px;
+}
+
+.nav{
+    margin: 10px;
+    background-color: gray;
+    font-size: 20pt;
+    position: absolute;
+    top : 31px; left: 42%;
+}
+.nav a{
+    color: yellow;
+    margin: 10px;
+}
+.nav a:hover{
+    color : black;
+    transition: 1s;
+}
+
+
+body {
+    background-color: rgb(145, 185, 145);
+    
+}
+
+.test{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.test .marks{
+    /*Устанавливаем маркер/номер внутри пункта списка*/
+    list-style-position: inside;
+    /*Центрируем*/      
+    text-align: center;
+    margin: 0px;
+}
+
+table{
+    width: 400px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+table td{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    padding: 5px;
+    font-size: 20pt;
+    margin-top: 20px;
+}
+table{
+    font-size: 52pt;
+}
+table #white{
+    background-color: white;
+}
+table #blue{
+    background-color: blue;
+}
+table #red{
+    background-color: red;
+}
