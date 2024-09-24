@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title> Главная страница </title>
 </head>
 <body>
+    <header>
+        <img class = "img-header" src="https://tiermaker.com/images/media/template_images/2024/16352921/brawl-stars-hypercharge-december-2023-february-2024-16352921/bullhyperchargepin.png" alt="Описание картинки для скрин-ридеров и поисковиков" width="1500" height="30" />
+        <h1> НАЗВАНИЕ СТРАНИЦЫ </h1></em>
+        <nav class = "nav">
+            <a href = "https://vk.com/keymusterror">VK</a>
+            <a href = "https://t.me/kirzinjj">Telegram</a>
+            <a href = "https://github.com/OK-cpu-beep/Ok-cpu-beep.github.io">Github</a>
+        </nav>
+    </header>
+    <div class="test">
+        <ul class = "marks">
+            <li>1.Ссылка без https <a href="http://www.kubsu.ru/"> КУБГУ </a></li><!-- 1 -->
+            <li>2.Ссылка c https<a href="https://www.kubsu.ru/index.php"> Страница КУБГУ2 </a> </li><!-- 2 -->
+            <li>3.Ссылка-изображение: <a href="https://cdn.discordapp.com/emojis/1057070997708226560.png">
+                <img src="https://cdn.discordapp.com/emojis/1057070997708226560.png" width="50" alt="Пример изображения"></a></li>
+                
+            <li>4.Ссылка на внутреннюю страницу.<a href="#inside"> Внутренняя страница </a></li><!-- 4 -->
+            <li>5.Ссылка на главную страницу<a href="index.html"> Главная страница </a></li><!-- 5 -->
+            <li>6. Ссылка на фрагмент текущей страницы <a href="#inside"> Фрагмент</a></li><!-- 6 -->
+            <li>7.Ссылка с 3 параметрами<a href="index.html?num=5;str=smth;mess=[1,2,3]"> 3 параметра </a></li><!-- 7 -->
+            <li>8. Ссылка с параматром id.<a href="index.html?id=123"> айди </a></li><!-- 8 -->
+            <li>9. Относительная ссылка <a href="/index.html"> Относ ссылка </a></li><!-- 9 -->
+            <li>10. Относительная на about<a href="about/third.html"> about </a></li><!-- 10 -->
+            
+            <li>11. <a href="../up1.html"> НА 1 папку выше </a></li><!-- 11 -->
+            <li>12. <a href="../../up2.html"> НА 2 папки выше </a></li><!-- 12 -->
+            <li>13.Пример контекстной <a href="https://www.google.com">ссылки</a> в тексте абзаца:</li>
+            <li>14. Фрагмент стороннего <a href="https://3.shkolkovo.online#vk_community_messages"> Школково </a></li><!-- 14 -->
+            <p> 15. Пример прямоугольной и круглой области</p>
+            <img src="https://habrastorage.org/getpro/habr/post_images/7b3/024/929/7b3024929be785c333480e84d6a8bab7.png" alt="Workplace" usemap="#workmap" width="650" height="379">
+            <map name="#workmap">
+            <area shape="rect" coords="103,120,238,257" href="https://www.yandex.ru" alt="Прямоугольная область">
+            <area shape="circle" coords="478,188,68" href="https://www.vk.com" alt="Круглая область">
+            </map><br>
+            <li> 16.Пустой<a href=""> href </a></li><!-- 16 -->
+            <li> 17.Отстутствие <a> href </a></li><!-- 17 -->
+            <li> 18.Запрещённая ссылка <a href = "https://www.desmos.com/?lang=ru"  rel="nofollow"> Не тыкать </a></li><!-- 18 -->
+            <li> 19.Индексация <noindex><a href="http://www.example.com">Попытка рекламы</a></noindex></li><!-- 19 -->
+            <li>20. Нумерованный список ссылок с подписями title</li>
+            <ol id = "test">
+                <li>Ссылка <a href="https://www.desmos.com/?lang=ru" title="Описание ссылки"> desmos </a></li>
+                <li>Ссылка <a href="https://www.youtube.com/" title="Описание ссылки"> youtube </a></li>
+              </ol>
     <h1>ЗАГОЛОВОК</h1>
     <ul>
         <li>1.Ссылка без https <a href="http://www.kubsu.ru/"> КУБГУ </a></li><!-- 1 -->
         <li>2.Ссылка c https<a href="https://www.kubsu.ru/index.php"> Страница КУБГУ2 </a> </li><!-- 2 -->
         <li>3.Ссылка-изображение: <a href="https://cdn.discordapp.com/emojis/1057070997708226560.png">
             <img src="https://cdn.discordapp.com/emojis/1057070997708226560.png" width="50" alt="Пример изображения"></a></li>
-
         <li>4.Ссылка на внутреннюю страницу.<a href="#inside"> Внутренняя страница </a></li><!-- 4 -->
         <li>5.Ссылка на главную страницу<a href="index.html"> Главная страница </a></li><!-- 5 -->
         <li>6. Ссылка на фрагмент текущей страницы <a href="#inside"> Фрагмент</a></li><!-- 6 -->
@@ -37,68 +80,97 @@
           <li>Ссылка <a href="https://www.youtube.com/" title="Описание ссылки"> youtube </a></li>
         </ol>
         <li>21.Cсылка на файл на сервере FTP <a href = "ftp://user:pass123@tavalik.ru/Temp/file.txt">тык</a></li>
+    <h1 id = "inside"> Внутренняя страница</h1>
     </ul>
+    <!-- ТАБЛИЧКА -->
+    <!-- ТАБЛИЧКА -->
+    <!-- ТАБЛИЧКА -->
+    <table>
+        <tr id = "white" >
+            <td colspan="4"> ВСЕМ ВСТАТЬ!!! </td>
+        </tr>
+        <tr id = "white">
+            <td colspan="2"> ЗВУЧИТ ГИМН </td>
+            <td colspan="2"> РОССИЙСКОЙ ФЕДЕРАЦИИ </td>
+        </tr>
+        <tr id = "blue">
+            <td>Россия -</td>
+            <td>священная</td>
+            <td>наша</td>
+            <td>держава,</td>
+        </tr>
+        <tr id = "red">
+            <td>Россия</td>
+            <td>любимая</td>
+            <td>наша</td>
+            <td>страна.</td>
+        </tr>
+        <tr id = "white">
+            <td>Могучая</td>
+            <td>воля,</td>
+            <td>великая</td>
+            <td>слава -</td>
+        </tr>
+        <tr id = "blue">
+            <td>Твое</td>
+            <td>достоянье</td>
+            <td>на все</td>
+            <td>времена!</td>
+        </tr>
+        <tr id = "red">
+            <td>Славься,</td>
+            <td>Отечество</td>
+            <td>наше</td>
+            <td>свободное,</td>
+        </tr>
+        <tr id = "white">
+            <td>Братских</td>
+            <td>народов</td>
+            <td>союз</td>
+            <td>вековой,</td>
+        </tr>
+        <tr id = "blue">
+            <td>Предками </td>
+            <td>данная</td>
+            <td>мудрость</td>
+            <td>народная!</td>
+        </tr>
+        <tr id = "red">
+            <td>Славься,</td>
+            <td>страна!</td>
+            <td>Мы гордимся</td>
+            <td>тобой!</td>
+        </tr>
+      </table>
+    <!-- ФОРМА -->
+    <!-- ФОРМА -->
+    <!-- ФОРМА -->
     <h1 id = "inside"> Внутренняя страница</h1>
     <form action = "/" method = "post">
     <form action = "" method = "post">
         <!-- 1 -->
         <label>
             ФИО:<br />
-            <input name="field-fio"
-            value="Иванов Иван Иванович
-            type="fio" />
-        </label><br />
-        <!-- 2 -->
-        <label>
-            Телефон:<br />
-            <input name="field-tel"
-            value="88005553535"
-            type="tel" />
-        </label><br />
-        <!-- 3 -->
-        <label>
-            Email:<br />
-            <input name="field-email"
-            value="test@gmail.com"
-            type="tel" />
-        </label><br />
-        <!-- 4 -->
-        <label>
-            Дата рождения:<br />
-            <input name="field-email"
-            value="test@gmail.com"
-            type="date" />
-        </label><br />
-        <!-- 5 -->
-        <label> Пол: <br>
-            <input type="radio" checked="checked" name="radio-group-1" value="Значение1" /> Мужской </label><br>
             <label><input type="radio" name="radio-group-1" value="Значение2" /> Женский </label><br>
         <!-- 6 -->
         <br>
+        <label for="languages">Любимый язык программирования:</label><br>
+        <select id="languages" name="languages" multiple>
         <label>Любимый язык программирования:</label><br>
         <select name="languages[]" multiple = "multiple">
           <option value="Pascal">Pascal</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
           <option value="C" selected = "selected">C</option>
           <option value="C++" selected = "selected">C++</option>
           <option value="JavaScript">JavaScript</option>
           <option value="PHP">PHP</option>
           <option value="Python">Python</option>
-          <option value="Java">Java</option>
-          <option value="Haskel">Haskel</option>
-          <option value="Clojure">Clojure</option>
-          <option value="Prolog">Prolog</option>
-          <option value="Scala">Scala</option>
-        </select>
-        <br><br>
-        <!-- 7 -->
-        <label>Биография:</label><br>
-        <textarea id="biography" name="biography"></textarea><br><br>
-        <!-- 8 -->
-        <label><input type="checkbox" checked="checked" name="check-1" />
-        С контрактом ознакомлен(а)</label><br><br>
         <!-- 9 -->
         <input type="submit" value="Сохранить">
       </form>
-
-
-</body>
+      <footer>
+        <p> Ковязин Кирилл (c)</p>
+      </footer>
+    </div>
+</body> 
