@@ -1,0 +1,178 @@
+body {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    background-image: url(static/buzz_background.jpg);
+    background-size: 100%;  
+    height: 3092px;
+}
+header {
+    align-items: center;
+    flex: 1;
+    order: 1;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin: 0;
+    text-align: left;
+    width:100%;
+    padding: 20px; 
+    height:130px;
+    color: yellow;
+}
+@media screen and (min-width: 1000px) {
+    header {
+      flex-direction: row;
+    }
+  }
+header::before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('static/header_image2.jpg');
+    background-size: 100%;
+    border-radius: 20%;
+    opacity: .8;
+    z-index: -1;
+}
+
+header .title{
+    padding: auto;
+    flex: 1;
+    order: 1;
+    opacity: 100%;
+    font-size: 35pt;
+}
+header .title h1{
+    font-size: 35pt;
+}
+
+header nav{
+    margin: auto;
+    flex: 2;
+    order: 2;
+    opacity: 100%;
+    font-size: 30pt;
+    top : 31px; left: 30%;
+}
+
+header nav a{
+    margin-top: 100px;
+    color: yellow;
+    margin: 10px;
+}
+header nav h1{
+    color: yellow;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color : black;
+    transition: 1s;
+}
+
+
+div.code {
+    text-align: center;
+    font-size: 100pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+   }
+
+.img-header{
+    float:left;
+    margin:10px; 
+    width:100px; 
+    height:100px;
+}
+
+
+.test{  
+    flex: 10;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 200, 214, 0.5);
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+    text-align: center;
+}
+.test .marks{
+    order: 1;
+
+    /*Устанавливаем маркер/номер внутри пункта списка*/
+    list-style-position: inside;
+    /*Центрируем*/      
+
+    margin: 0px;
+}
+.test .marks h1{
+    order: 2;
+}
+.test .marks li{
+    color: rgb(65, 0, 85);
+    font-weight: bolder;
+    font-size: 30pt; 
+}
+
+.test .marks a{
+    color: yellow;
+}
+
+.test .marks a:hover{
+    color: black;
+    transition: 1s;
+}
+
+
+table{
+    flex: 15;
+    order: 3;
+    width: 400px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+table td{
+    text-align: center;
+}
+table{
+    font-size: 40pt;
+}
+form{
+    order: 4;
+}
+table #white{
+    background-color: white;
+}
+table #blue{
+    background-color: blue;
+}
+table #red{
+    background-color: red;
+}
+
+footer{
+    order: 5;
+    background-color: rgb(0, 255, 213, 0.5);
+    padding: 5px;
+    font-size: 20pt;
+    margin-top: 20px;
+    flex: 1;
+    align-content: end;
+}
+#inside{
+    font-size: 35pt;
+}
+#tablo{
+    font-size: 25pt;
+    color:rgb(76, 0, 83)
+}
