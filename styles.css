@@ -39,7 +39,7 @@ header nav{
     margin: 10px;
     font-size: 30pt;
     position: absolute;
-    top : 31px; left: 30%;
+    top : 0%; right: 0%;
 }
 
 header nav a{
@@ -123,10 +123,11 @@ table #red{
 }
 
 footer{
+    position: center;
     background-color: rgb(0, 255, 213, 0.5);
     padding: 5px;
     font-size: 20pt;
-    margin-top: 20px;
+    width: 150%;
 }
 #inside{
     font-size: 35pt;
