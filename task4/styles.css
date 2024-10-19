@@ -1,0 +1,171 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    background-image: url(static/buzz_background.jpg);
+    background-size: 100%;  
+    width: 100%;
+    height: 100%;
+}
+header {
+    align-items: center;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin: 0;
+    text-align: left;
+    width:100%;
+    padding: 0px; 
+    color: yellow;
+}
+header::before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 39, 44, 0.699);
+    height: 100%;
+    background-size: 100%;
+    border-radius: 20%;
+    opacity: .8;
+    z-index: -1;
+}
+
+header .title{
+    padding: auto;
+    opacity: 100%;
+    font-size: 35pt;
+}
+header .title h1{
+    font-size: 25pt;
+    padding:  20pt;
+}
+
+header nav{
+    margin: auto;
+    opacity: 100%;
+}
+
+
+
+header nav a{
+    font-size: 30px;
+    margin-top: 100px;
+    color: yellow;
+    margin: 10px;
+}
+header nav h1{
+    color: yellow;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color : black;
+    transition: 1s;
+}
+
+
+div.code {
+    text-align: center;
+    font-size: 50pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+   }
+
+.img-header{
+    float:left;
+    margin:10px; 
+    width:100px; 
+    height:100px;
+}
+
+
+.test{ 
+    background-color: rgba(1, 200, 214, 0.5);
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+    text-align: center;
+}
+.test .marks{
+
+    /*Устанавливаем маркер/номер внутри пункта списка*/
+    list-style-position: inside;
+    /*Центрируем*/      
+
+    margin: 0px;
+}
+.test .marks li{
+    color: rgb(65, 0, 85);
+    font-weight: bolder;
+    font-size: 15pt; 
+}
+.test .marks a{
+    color: yellow;
+}
+
+.test .marks a:hover{
+    color: black;
+    transition: 1s;
+}
+
+
+table{
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+@media screen and (min-width: 1000px) {
+    table {
+      order: 3;
+    }
+  }
+table td{
+    text-align: center;
+}
+table{
+    font-size: 14pt;
+}
+form{
+    font-size: 20pt;
+}
+table #white{
+    background-color: white;
+}
+table #blue{
+    background-color: blue;
+}
+table #red{
+    background-color: red;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(0, 255, 213, 0.5);
+    padding: 5px;
+    font-size: 20pt;
+    align-content: end;
+    width: 100%;
+}
+#inside{
+    font-size: 30pt;
+}
+#tablo{
+    color:rgb(76, 0, 83)
+}
+p{
+    font-family: 'Times New Roman';
+}
+a{
+    font-family: 'Times New Roman';
+}
+h1{
+    font-family: 'Times New Roman';
+}
+ul{
+    padding-inline-start: 0px;
+    font-family: 'Times New Roman';
+}

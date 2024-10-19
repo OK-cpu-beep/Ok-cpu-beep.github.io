@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Дом Баззиков </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- БОШКА -->
+    <!-- По плану в бошке должны быть кнопки -->
+    <!-- О сайте, Добавить статью, Тех поддежка --> 
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col-12 order-1 col-md-3">
+                    <div class="h-100 py-2">
+                        <div class = "title">
+                            <a href="index.html"><img class = "img-header" src="static/hyperbuzz_pin.png" alt="Описание картинки для скрин-ридеров и поисковиков"/></a>
+                            <h1> ДОМ БАЗЗИЛ </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 order-2 pt-md-5 pb-2">
+                    <nav>
+                        <div class="row">
+                            <div class="col"><a href = "#">О сайте</a></div>
+                            <div class="col"><a href = "#">Добавить статью</a></div>
+                            <div class="col"><a href = "#">Тех поддежка</a></div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="test">
+            <div class="row flex">
+                <div class = "col-12 order-3 order-md-1">
+                    <ul class = "marks">
+                        <li>Ссылка VK <a href="https://vk.com/keymusterror/"> VK </a></li><!-- 1 -->
+                        <li>Ссылка TG<a href="https://t.me/kirzinjj"> TG </a> </li><!-- 2 -->
+                        <li>Любимая игра <a href="https://cdn.discordapp.com/emojis/1057070997708226560.png">
+                        <img src="https://cdn.discordapp.com/emojis/1057070997708226560.png" width="50" alt="Пример изображения"></a></li>  
+                        <li>ГИМН РФ <a href="#inside">ЗДЕСЬ</a></li><!-- 4 -->
+                        <li>Ссылка на главную страницу <br><a href="index.html"> Главная страница </a></li><!-- 5 -->  
+                    </ul>
+                </div>
+    <div class = "col-12 order-1 justify-content-center order-md-2">
+        ГИМН РОССИЙСКОЙ ФЕДЕРАЦИИ
+    </div>
+    <!-- ТАБЛИЧКА -->
+    <!-- ТАБЛИЧКА -->
+    <!-- ТАБЛИЧКА -->
+    <div class = "col-12  order-2 justify-content-center order-md-3">
+    <table>
+        <tr id = "white" >
+            <td colspan="4"> ВСЕМ ВСТАТЬ!!! </td>
+        </tr>
+        <tr id = "white">
+            <td colspan="2"> ЗВУЧИТ ГИМН </td>
+            <td colspan="2"> РОССИЙСКОЙ ФЕДЕРАЦИИ </td>
+        </tr>
+        <tr id = "blue">
+            <td>Россия -</td>
+            <td>священная</td>
+            <td>наша</td>
+            <td>держава,</td>
+        </tr>
+        <tr id = "red">
+            <td>Россия</td>
+            <td>любимая</td>
+            <td>наша</td>
+            <td>страна.</td>
+        </tr>
+        <tr id = "white">
+            <td>Могучая</td>
+            <td>воля,</td>
+            <td>великая</td>
+            <td>слава -</td>
+        </tr>
+        <tr id = "blue">
+            <td>Твое</td>
+            <td>достоянье</td>
+            <td>на все</td>
+            <td>времена!</td>
+        </tr>
+        <tr id = "red">
+            <td>Славься,</td>
+            <td>Отечество</td>
+            <td>наше</td>
+            <td>свободное,</td>
+        </tr>
+        <tr id = "white">
+            <td>Братских</td>
+            <td>народов</td>
+            <td>союз</td>
+            <td>вековой,</td>
+        </tr>
+        <tr id = "blue">
+            <td>Предками </td>
+            <td>данная</td>
+            <td>мудрость</td>
+            <td>народная!</td>
+        </tr>
+        <tr id = "red">
+            <td>Славься,</td>
+            <td>страна!</td>
+            <td>Мы гордимся</td>
+            <td>тобой!</td>
+        </tr>
+      </table>
+      </div>
+    <!-- ФОРМА -->
+    <!-- ФОРМА -->
+    <!-- ФОРМА -->
+    <div class = "col-12 justify-content-center order-4">
+    <form id = "tablo" action = "/" method = "post">
+        <!-- 1 -->
+        <label>
+            ФИО:<br />
+            <input name="field-fio"
+            value="Иванов Иван Иванович"
+            type="fio"
+            />
+        </label><br />
+        <!-- 2 -->
+        <label>
+            Телефон:<br />
+            <input name="field-tel"
+            value="88005553535"
+            type="tel" />
+        </label><br />
+        <!-- 3 -->
+        <label>
+            Email:<br />
+            <input name="field-email"
+            value="test@gmail.com"
+            type="tel" />
+        </label><br />
+        <!-- 4 -->
+        <label>
+            Дата рождения:<br />
+            <input name="field-email"
+            value="test@gmail.com"
+            type="date" />
+        </label><br />
+        <!-- 5 -->
+        <label> Пол: <br>
+            <input type="radio" checked="checked" name="radio-group-1" value="Значение1" /> Мужской </label><br>
+            <label><input type="radio" name="radio-group-1" value="Значение2" /> Женский </label><br>
+        <!-- 6 -->
+        <br>
+        <label for="languages">Любимый язык программирования:</label><br>
+        <select id="languages" name="languages" multiple>
+          <option value="Pascal">Pascal</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="PHP">PHP</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="Haskel">Haskel</option>
+          <option value="Clojure">Clojure</option>
+          <option value="Prolog">Prolog</option>
+          <option value="Scala">Scala</option>
+        </select>
+        <br><br>
+        <!-- 7 -->
+        <label>Биография:</label><br>
+        <textarea id="biography"
+        name="biography"></textarea><br><br>
+        <!-- 8 -->
+        <label><input type="checkbox" checked="checked" name="check-1" />
+        С контрактом ознакомлен(а)</label><br><br>
+        <!-- 9 -->
+        <input type="submit" value="Сохранить">
+      </form>
+      </div>
+    </div>
+    </div>
+    <footer>
+        <p> Ковязин Кирилл (c)</p>
+      </footer>
+</body> 
