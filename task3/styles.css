@@ -97,7 +97,7 @@ div.code {
 
 
 .test{  
-    flex: 15;
+    flex: 30;
     order: 2;
     display: flex;
     flex-direction: column;
