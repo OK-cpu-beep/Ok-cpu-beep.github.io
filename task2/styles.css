@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-image: url(static/buzz_background.jpg);
+    background-size: 100%;
+}
+header {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin: 0;
+    text-align: left;
+    width:100%;
+    padding: 10px; 
+    height:130px;
+    color: yellow;
+    background-color: rgba(1, 1, 78, 0.438);
+}
+
+header h1{
+    opacity: 100%;
+    font-size: 35pt;
+}
+
+header nav{
+    opacity: 100%;
+    margin: 10px;
+    font-size: 30pt;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+header nav a{
+    color: yellow;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color : black;
+    transition: 1s;
+}
+
+
+div.code {
+    text-align: center;
+    font-size: 100pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+   }
+
+.img-header{
+    float:left;
+    margin:10px; 
+    width:100px; 
+    height:100px;
+}
+
+
+.main_block{
+    background-color: rgba(1, 200, 214, 0.5);
+    margin: auto;
+    margin-top: 20px;
+    width: 960px;
+}
+.main_block .marks{
+    list-style-position: inside;
+    /*Центрируем*/      
+
+    margin: 0px;
+}
+.main_block .marks li{
+    color: rgb(65, 0, 85);
+    font-weight: bolder;
+    font-size: 30pt; 
+}
+
+.main_block .marks a{
+    color: yellow;
+}
+
+.main_block .marks a:hover{
+    color: black;
+    transition: 1s;
+}
+.main_block form{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    width: 400px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+table td{
+    text-align: center;
+}
+table{
+    font-size: 40pt;
+}
+
+table #white{
+    background-color: white;
+}
+table #blue{
+    background-color: blue;
+}
+table #red{
+    background-color: red;
+}
+
+footer{
+    background-color: rgb(0, 255, 213, 0.5);
+    padding: 5px;
+}
+#inside{
+    font-size: 35pt;
+}
+#tablo{
+    font-size: 25pt;
+    color:rgb(76, 0, 83)
+}

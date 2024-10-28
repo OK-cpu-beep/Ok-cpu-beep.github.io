@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Дом Баззиков </title>
+</head>
+<body>
+    <!-- БОШКА -->
+    <!-- По плану в бошке должны быть кнопки -->
+    <!-- О сайте, Добавить статью, Тех поддежка -->
+    <header>
+        <a href="index.html">
+            <img class = "img-header" src="static/hyperbuzz_pin.png" alt="Описание картинки для скрин-ридеров и поисковиков"/>
+        </a>
+        <h1> ДОМ БАЗЗИЛ </h1>
+        <nav>
+            <a href = "#">О сайте</a>
+            <a href = "#">Добавить статью</a>
+            <a href = "#">Тех поддежка</a>
+        </nav>
+    </header>
+    <div class="main_block">
+        <ul class = "marks">
+            <li>Ссылка VK <a href="https://vk.com/keymusterror/"> VK </a></li><!-- 1 -->
+            <li>Ссылка TG<a href="https://t.me/kirzinjj"> TG </a> </li><!-- 2 -->
+            <li>Любимая игра <a href="https://cdn.discordapp.com/emojis/1057070997708226560.png">
+                <img src="https://cdn.discordapp.com/emojis/1057070997708226560.png" width="50" alt="Пример изображения"></a></li>
+                
+            <li>ГИМН РФ <a href="#inside">ЗДЕСЬ</a></li><!-- 4 -->
+            <li>Ссылка на главную страницу<a href="index.html"> Главная страница </a></li><!-- 5 -->
+            <li> Ссылка на фрагмент текущей страницы <a href="#inside"> Фрагмент</a></li><!-- 6 -->
+            <li>Ссылка с 3 параметрами<a href="index.html?num=5;str=smth;mess=[1,2,3]"> 3 параметра </a></li><!-- 7 -->
+            <li> Ссылка с параматром id.<a href="index.html?id=123"> айди </a></li><!-- 8 -->
+            <li> Относительная ссылка <a href="/index.html"> Относ ссылка </a></li><!-- 9 -->
+            <li> Относительная на about<a href="about/third.html"> about </a></li><!-- 10 -->
+            <li>Пример контекстной <a href="https://www.google.com">ссылки</a> в тексте абзаца:</li>
+            <li>Фрагмент стороннего <a href="https://3.shkolkovo.online#vk_community_messages"> Школково </a></li><!-- 14 -->
+            <li>Запрещённая ссылка <a href = "https://www.desmos.com/?lang=ru"  rel="nofollow"> Не тыкать </a></li><!-- 18 -->
+            <li>Индексация <noindex><a href="http://www.example.com">Попытка рекламы</a></noindex></li><!-- 19 -->
+            <li>Cсылка на файл на сервере FTP <a href = "ftp://user:pass123@tavalik.ru/Temp/file.txt">тык</a></li>
+        </ul>
+        <h1 id = "inside"> ГИМН РОССИЙСКОЙ ФЕДЕРАЦИИ </h1>
+        <!-- ТАБЛИЧКА -->
+        <!-- ТАБЛИЧКА -->
+        <!-- ТАБЛИЧКА -->
+        <table>
+            <tr id = "white" >
+                <td colspan="4"> ВСЕМ ВСТАТЬ!!! </td>
+            </tr>
+            <tr id = "white">
+                <td colspan="2"> ЗВУЧИТ ГИМН </td>
+                <td colspan="2"> РОССИЙСКОЙ ФЕДЕРАЦИИ </td>
+            </tr>
+            <tr id = "blue">
+                <td>Россия -</td>
+                <td>священная</td>
+                <td>наша</td>
+                <td>держава,</td>
+            </tr>
+            <tr id = "red">
+                <td>Россия</td>
+                <td>любимая</td>
+                <td>наша</td>
+                <td>страна.</td>
+            </tr>
+            <tr id = "white">
+                <td>Могучая</td>
+                <td>воля,</td>
+                <td>великая</td>
+                <td>слава -</td>
+            </tr>
+            <tr id = "blue">
+                <td>Твое</td>
+                <td>достоянье</td>
+                <td>на все</td>
+                <td>времена!</td>
+            </tr>
+            <tr id = "red">
+                <td>Славься,</td>
+                <td>Отечество</td>
+                <td>наше</td>
+                <td>свободное,</td>
+            </tr>
+            <tr id = "white">
+                <td>Братских</td>
+                <td>народов</td>
+                <td>союз</td>
+                <td>вековой,</td>
+            </tr>
+            <tr id = "blue">
+                <td>Предками </td>
+                <td>данная</td>
+                <td>мудрость</td>
+                <td>народная!</td>
+            </tr>
+            <tr id = "red">
+                <td>Славься,</td>
+                <td>страна!</td>
+                <td>Мы гордимся</td>
+                <td>тобой!</td>
+            </tr>
+        </table>
+        <!-- ФОРМА -->
+        <!-- ФОРМА -->
+        <!-- ФОРМА -->
+        <form id = "tablo" action = "/" method = "post">
+            <!-- 1 -->
+            <label>
+                ФИО:<br />
+                <input name="field-fio"
+                value="Иванов Иван Иванович"
+                type="fio"
+                />
+            </label><br />
+            <!-- 2 -->
+            <label>
+                Телефон:<br />
+                <input name="field-tel"
+                value="88005553535"
+                type="tel" />
+            </label><br />
+            <!-- 3 -->
+            <label>
+                Email:<br />
+                <input name="field-email"
+                value="test@gmail.com"
+                type="tel" />
+            </label><br />
+            <!-- 4 -->
+            <label>
+                Дата рождения:<br />
+                <input name="field-email"
+                value="test@gmail.com"
+                type="date" />
+            </label><br />
+            <!-- 5 -->
+            <label> Пол: <br>
+                <input type="radio" checked="checked" name="radio-group-1" value="Значение1" /> Мужской </label><br>
+                <label><input type="radio" name="radio-group-1" value="Значение2" /> Женский </label><br>
+            <!-- 6 -->
+            <br>
+            <label for="languages">Любимый язык программирования:</label><br>
+            <select id="languages" name="languages" multiple>
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+            </select>
+            <br><br>
+            <!-- 7 -->
+            <label>Биография:</label><br>
+            <textarea id="biography"
+            cols="60"
+            rows="8"
+            name="biography"></textarea><br><br>
+            <!-- 8 -->
+            <label><input type="checkbox" checked="checked" name="check-1" />
+            С контрактом ознакомлен(а)</label><br><br>
+            <!-- 9 -->
+            <input type="submit" value="Сохранить">
+        </form>
+    </div>
+    <footer>
+        <p> Ковязин Кирилл (c)</p>
+    </footer>
+</body> 
