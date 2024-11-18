@@ -37,11 +37,15 @@ input, select{
     width: 95%;
     transition: border-color 0.3s ease;
 }
+
 label{
     color: #00063a;
     font-size: 20px;
 }
+#tovar{
+    width: 100%;
+}
 #error{
-    color: red;
-    font-size: 20px;
+    color: rgb(128, 0, 0);
+    font-size: 22px;
 }
