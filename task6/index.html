@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Баззил</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <h1> Калькулятор магаза баззилы </h1>
+        <form id="zakaz">
+            <label for="quantity">Количество:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Введите количество" required>
+            <h3>Выберите тип услуги:</h3>
+            <label>
+                <input type="radio" name="serviceType" value="type1" checked> Мохито (200 руб)
+            </label>
+            <label>
+                <input type="radio" name="serviceType" value="type2"> Фруктовый лёд (100руб)
+            </label>
+            <label>
+                <input type="radio" name="serviceType" value="type3"> НАСТОЯЩИЙ КОКОС (5000 руб)
+            </label>
+
+            <div id="options" style="display: none;">
+                <label for="optionSelect">Выберите вкус:</label>
+                <select id="optionSelect">
+                    <option value="50"> СУПЕРКРУТОЙ МАНГО (+50 руб)</option>
+                    <option value="30"> КРУТОЙ МАНГО (+30 руб)</option>
+                    <option value="0"> Яблочный (+0 руб)</option>
+                    <option value="0"> Апельсиновый (+0 руб)</option>
+                </select>
+            </div>
+
+            <div id="property" style="display: none;">
+                <label>
+                    <input type="checkbox" id="propertyCheckbox"> Оставить чаевые (+100 руб)
+                </label>
+            </div>
+        </form>
+
+        <div id="result">Итоговая стоимость: 0 руб.</div>
+    </div>
+</body>
+</html>
